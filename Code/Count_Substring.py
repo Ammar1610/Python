@@ -1,0 +1,6 @@
+a=input("Enter a string:")
+b=input("Enter a substring:")
+l=a.split()
+print(l)
+c=l.count(b)
+print(c)

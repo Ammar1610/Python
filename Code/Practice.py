@@ -1,0 +1,13 @@
+grade=[9,7,7,10,3,9,6,6,2]
+#print(grade.count(7))
+#grade[8]=4
+#print(grade)
+#print(max(grade))
+#t=sorted(grade)
+#print(t)
+#grade.sort()
+#print(grade)
+c=len(grade)
+c1=sum(grade)
+f=c1/c
+print(f)
