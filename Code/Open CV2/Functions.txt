@@ -1,0 +1,6 @@
+cv.imread -> takes address of image 
+cv.imshow -> need two arguments name of image and variable in which image is readed 
+cv.VideoCapture(Address of video)
+if cv.waitKey(20) & 0xFF==ord('d'):           #to stop infinite loop of video
+capture.release()    ->to realease videoCapture function
+cv.destroyAllWindows()   -> to close window 
