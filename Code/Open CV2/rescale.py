@@ -1,6 +1,6 @@
 import cv2 as cv
 
-def rescaleframe(frame,scale=0.2):
+def rescaleframe(frame,scale=0.2):              #frame is the variable having function read
     width=int(frame.shape[1] * scale)           #setting the width of video
     height=int(frame.shape[0] * scale)          #setting the height of video
     dimension=(width,height)
